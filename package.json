@@ -1,0 +1,63 @@
+{
+  "name": "dazzle-works-content-starter",
+  "private": true,
+  "description": "Gatsby JS dazzle works content",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions",
+    "build": "gatsby build",
+    "develop": "env-cmd .env.development gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^13.2.0",
+    "axios": "^0.19.2",
+    "babel-plugin-styled-components": "^1.10.7",
+    "contentful-management": "^5.13.0",
+    "formbase": "^11.0.0",
+    "gatsby": "^2.19.19",
+    "gatsby-plugin-gtag": "^1.0.13",
+    "gatsby-plugin-mailchimp": "^5.1.2",
+    "gatsby-plugin-manifest": "^2.2.41",
+    "gatsby-plugin-netlify": "^2.1.32",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "gatsby-plugin-sass": "^2.1.29",
+    "gatsby-plugin-sharp": "^2.4.5",
+    "gatsby-plugin-sitemap": "^2.2.27",
+    "gatsby-plugin-styled-components": "^3.1.19",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-remark-images": "^3.1.44",
+    "gatsby-remark-relative-images": "^0.2.2",
+    "gatsby-source-contentful": "^2.1.86",
+    "gatsby-source-instagram": "^0.5.1",
+    "gatsby-transformer-sharp": "^2.3.14",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "netlify-lambda": "^1.4.13",
+    "node-sass": "^4.13.1",
+    "nodemailer": "^6.4.3",
+    "react": "^16.12.0",
+    "react-cookie-consent": "^2.3.1",
+    "react-dom": "^16.12.0",
+    "react-ga": "^2.5.7",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.9.0",
+    "react-reveal": "^1.2.2",
+    "smooth-scroll": "^16.1.2",
+    "styled-components": "^4.4.1",
+    "typewriter-effect": "^2.12.2"
+  },
+  "devDependencies": {
+    "env-cmd": "^8.0.2",
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darrencarlin/dazzle-works-content-starter.git"
+  }
+}

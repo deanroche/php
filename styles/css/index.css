@@ -1,0 +1,168 @@
+.cookieConsent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  margin: 15px;
+  background: rgba(0, 0, 0, 0.8);
+  max-width: 100%;
+  z-index: 1000;
+  position: fixed;
+}
+
+.cookieConsent .cookie-text,
+.cookieConsent .cookie-btn {
+  color: #fff;
+  font-family: Lato, "sans-serif";
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.cookieConsent .cookie-btn {
+  background: #19b31fcc;
+  color: #fff;
+  border: 0;
+  line-height: 1.6;
+  cursor: pointer;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.cookieConsent .cookie-text {
+  padding: 10px;
+}
+
+.cookieConsent .cookie-text a {
+  padding: 0 0 0 5px;
+  color: #fff;
+}
+
+@media screen and (min-width: 800px) {
+  .cookieConsent {
+    right: 0px;
+    left: initial;
+    max-width: 25%;
+  }
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.6;
+  color: #2b2b2b;
+  letter-spacing: 1px;
+  font-family: "Roboto Mono", monospace;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin: 0 0 15px 0;
+  font-family: "Roboto Slab", serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  padding: 10px 0 25px 0;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  padding: 5px 0 0 0;
+}
+
+ul li p {
+  padding: 0;
+}
+
+::-webkit-input-placeholder,
+select,
+[type="submit"] {
+  color: #2b2b2b;
+}
+
+:-ms-input-placeholder,
+select,
+[type="submit"] {
+  color: #2b2b2b;
+}
+
+::-ms-input-placeholder,
+select,
+[type="submit"] {
+  color: #2b2b2b;
+}
+
+::placeholder,
+select,
+[type="submit"] {
+  color: #2b2b2b;
+}
+
+ul {
+  list-style: none;
+}
+/*# sourceMappingURL=index.css.map */
