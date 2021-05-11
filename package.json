@@ -36,7 +36,7 @@
     "gatsby-source-contentful": "^2.1.89",
     "gatsby-source-instagram": "^0.5.1",
     "gatsby-transformer-sharp": "^2.3.16",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "netlify-lambda": "^1.4.13",
     "node-sass": "^4.13.1",
